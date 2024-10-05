@@ -1,0 +1,191 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  font-family: sans-serif;
+}
+/*          start section style 
+  *****************************************************
+  *****************************************************
+  */
+.edu,
+.skills,
+.interests {
+  display: flex;
+  align-items: center;
+}
+.edu img,
+.skills img,
+.interests img {
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+}
+/*          start section  style 
+  *****************************************************
+  *****************************************************
+  */
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  margin-bottom: 40px;
+}
+
+.hero .item-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+/*          start section  style 
+  *****************************************************
+  *****************************************************
+  */
+main {
+  box-shadow: 0 15px 25px grey;
+  margin: 10px 100px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+.main-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+/*          start section  style 
+  *****************************************************
+  *****************************************************
+  */
+.rocket {
+  width: 40px;
+  height: 40px;
+  margin: 20px 0;
+}
+/*          start section  style 
+  *****************************************************
+  *****************************************************
+  */
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 20px;
+  border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.box,
+.box1 {
+  width: 250px;
+  height: 110px;
+  background-color: #017bff;
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+}
+
+.contact-info .box a {
+  color: #fff;
+}
+
+.main-sec h2 {
+  color: rgb(68, 67, 67);
+  font-size: 25px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+/*          start section  style 
+  *****************************************************
+  *****************************************************
+  */
+.follow {
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid rgb(199, 199, 199);
+  padding-bottom: 15px;
+  margin-left: 25px;
+}
+.follow img {
+  width: 30px;
+  height: 30px;
+}
+/*          start section  style 
+  *****************************************************
+  *****************************************************
+  */
+
+.education {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin-left: 25px;
+  border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.education p {
+  color: white;
+}
+
+/*          start section  style 
+  *****************************************************
+  *****************************************************
+  */
+
+.lan {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+  margin-left: 25px;
+  border-bottom: 1px solid rgb(199, 199, 199);
+}
+.lan p {
+  color: white;
+  font-size: 18px;
+}
+
+/*          start section  style 
+  *****************************************************
+  *****************************************************
+  */
+
+.sec-head {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+  margin-left: 25px;
+  border-bottom: 1px solid rgb(199, 199, 199);
+}
+.sec-head p {
+  color: white;
+}
